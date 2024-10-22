@@ -1,10 +1,12 @@
 # TetraLoss: Improving the Robustness of Face Recognition against Morphing Attacks
-**Published in the proceedings of the 2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)**
+**[Published in the proceedings of the 2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)](https://ieeexplore.ieee.org/document/10581988)**
+
+## Introduction
+This repository contains code for the above-mentioned paper. Specifically, we provide a script for using a pre-trained TetraLoss model and MAD model to obtain comparison/detection scores from the corresponding models. 
 
 <p align="center">
   <img src="graphics/tetra_overview.png" alt="TetraLoss Overview" width="500"/>
 </p>
-
 
 ---
 
