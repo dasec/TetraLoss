@@ -28,11 +28,11 @@ This repository includes a pre-trained TetraLoss model and a Morphing Attack Det
 To run this code, you can use the provided pre-trained models:
 
 - **TetraLoss AdaFace ResNet100 model**:  
-  Link: https://cloud.h-da.de/s/Qx8BCQrsG7DpcwM
+  Link: https://cloud.h-da.de/s/Qx8BCQrsG7DpcwM  <br>
   Password: CzYb6TyABKjoYa
 
 - **MAD model**:  
-  Link: https://cloud.h-da.de/s/Nj6bABtScEqP6q7
+  Link: https://cloud.h-da.de/s/Nj6bABtScEqP6q7 <br>
   Password: mmREmj6g4DjqRA
 
 ### Prerequisite
