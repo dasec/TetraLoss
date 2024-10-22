@@ -2,8 +2,9 @@
 **Published in the proceedings of the 2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)**
 
 <p align="center">
-  <img src="graphics/tetra_overview.jpg" alt="TetraLoss Overview" width="350px" height="350px"/>
+  <img src="graphics/tetra_overview.png" alt="TetraLoss Overview" width="500"/>
 </p>
+
 
 ---
 
