@@ -24,18 +24,13 @@ The implementation was tested on Linux using **NVIDIA A100 Tensor Core GPUs**.
 ---
 
 ## Testing
-This repository includes a pre-trained TetraLoss model and a Morphing Attack Detection (MAD) model for evaluation on bona fide and morphed images.
+This repository includes a pre-trained TetraLoss model and a Morphing Attack Detection (MAD) model for evaluation on bona fide and morphed images. It is based on AdaFace ResNet100.
 
 ### Pre-trained Models
-To run this code, you can use the provided pre-trained models:
+TetraLoss model and MAD model:
 
-- **TetraLoss AdaFace ResNet100 model**:  
-  Link: https://cloud.h-da.de/s/Qx8BCQrsG7DpcwM  <br>
-  Password: CzYb6TyABKjoYa
-
-- **MAD model**:  
-  Link: https://cloud.h-da.de/s/Nj6bABtScEqP6q7 <br>
-  Password: mmREmj6g4DjqRA
+Link: https://cloud.h-da.de/s/NBW3XGWN69CkZqC
+Password: mmREmj6g4DjqRA
 
 ### Prerequisite
 Before running the model, extract face embeddings using the **adaface_ir101_ms1mv2.ckpt** file from the [AdaFace](https://github.com/mk-minchul/AdaFace) repository. Ensure you use the specific version of AdaFace based on **ResNet100 (ir_101)**, trained on **MS1MV2**. Follow the general inference guidelines from the AdaFace repository to extract and save embeddings from your dataset. The code expects that the embeddings are numpy arrays saved using `np.savetxt` and are loaded as numpy arrays in the code (see `utils/helper.py`).
