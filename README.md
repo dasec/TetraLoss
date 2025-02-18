@@ -29,8 +29,7 @@ This repository includes a pre-trained TetraLoss model and a Morphing Attack Det
 ### Pre-trained Models
 TetraLoss model and MAD model:
 
-Link: https://cloud.h-da.de/s/NBW3XGWN69CkZqC  <br/>
-Password: mmREmj6g4DjqRA
+Link: [https://cloud.h-da.de/s/soX4NPB2gjsmFMd](https://cloud.h-da.de/s/soX4NPB2gjsmFMd) 
 
 ### Prerequisite
 Before running the model, extract face embeddings using the **adaface_ir101_ms1mv2.ckpt** file from the [AdaFace](https://github.com/mk-minchul/AdaFace) repository. Ensure you use the specific version of AdaFace based on **ResNet100 (ir_101)**, trained on **MS1MV2**. Follow the general inference guidelines from the AdaFace repository to extract and save embeddings from your dataset. The code expects that the embeddings are numpy arrays saved using `np.savetxt` and are loaded as numpy arrays in the code (see `utils/helper.py`).
